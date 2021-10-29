@@ -1,0 +1,77 @@
+:root{
+  font-size: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(239, 243, 243);
+}
+
+ul{
+  list-style: none;
+}
+
+.cardSection{
+  margin: 2rem 11rem;
+}
+
+.cardsHeading{
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+} 
+
+.cardsContainer{
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: space-evenly;
+}
+
+.cardWrapper{
+  display: flex;
+  align-items: flex-end;
+  margin: 1rem;
+  border: 3px solid #ddd;
+}
+
+.cardContainer{
+  width: 300px;
+  text-align: center;
+}
+
+.cardImageWrapper{
+  width: inherit;
+  position: relative;
+  height: 300px;
+}
+
+.initials{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.cardImage{
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  object-position: top;
+}
+
+.cardName,
+.cardDescription{
+  margin: 1rem;
+}
